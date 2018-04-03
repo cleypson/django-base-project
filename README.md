@@ -1,2 +1,2 @@
 # django-base-project
-Projeto Base para Django com Deploy no Heroku
+Projeto base Django 2.0 com configuração para deploy no Heroku
