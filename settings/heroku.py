@@ -5,6 +5,8 @@ import dj_database_url
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
+ALLOWED_HOSTS = ['*.herokuapp.com']
+
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 
@@ -19,3 +21,4 @@ DATABASES['default'].update(db_from_env)
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
