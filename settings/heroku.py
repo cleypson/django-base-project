@@ -5,7 +5,7 @@ import dj_database_url
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
-ALLOWED_HOSTS = ['*.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
